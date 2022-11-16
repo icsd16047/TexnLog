@@ -7,5 +7,6 @@ import org.springframework.stereotype.Component;
 public class JerseyConfig extends ResourceConfig{
     public JerseyConfig(){
         register(UserManagement.class);
+        register(CommentManagement.class);
     }
 }
